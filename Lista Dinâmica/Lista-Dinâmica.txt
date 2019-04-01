@@ -1,0 +1,21 @@
+"Lista Dinâmica Encadeada":
+Tipo de "Lista" onde cada elemento aponta para o seu sucessor na "lista".
+Usa um ponteiro especial para o primeiro elemento da lista (**: ponteiro para ponteiro) e uma indicação de final de lista.
+O ultimo elemento dessa lista aponta para NULL.
+
+- Cada elemento é tratado como um ponteiro que alocado dinamicamente, a medida que os dados são inseridos.
+- Para guardar o primeiro elemento, utilizamos um "ponteiro para ponteiro".
+- Um "ponteiro para ponteiro" pode guardar o endereço de um "ponteiro".
+- Assim, fica fácil mudar quem está no início da lista mudando o "conteúdo" do "ponteiro".
+
+Vantagens:
+- Melhor utilização dos recursos de memória.
+- Não precisa movimentar os elementos nas operações de inserção e remoção.
+
+Desvantagens:
+- Acesso indireto aos elementos.
+- Necessidade de percorrer a lista para acessar um elemento. 
+
+Quando utilizar esse tipo de "Lista"?
+- Quando não houver como garantir um espaço mínimo para a execução.
+- Inserção/remoção em lista ordenada são as operações mais frequêntes.

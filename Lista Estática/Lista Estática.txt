@@ -1,0 +1,17 @@
+"Lista Sequencial Estática" ou "Lista Linear Estática":
+Tipo de "Lista" onde o sucessor de um elemento ocupa a posição física seguinte do mesmo (uso de "array").
+
+Vantagens:
+- Acesso rápido e direto aos elementos (índice).
+- Tempo constante para acessar um elemento.
+- Facilidade de modificar informações.
+
+Desvantagens:
+- Definição prévia do tamanho do array.
+- Dificuldade de inserir elementos entre outros dois, é necessário deslocar os outros elementos.
+
+Quando utilizar essa "Lista"?
+- Listas pequenas.
+- Inserção/remoção apenas no final da lista.
+- Tamanho máximo bem definido.
+- A busca é a operação mais frequente.
